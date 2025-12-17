@@ -4,6 +4,7 @@ import sys
 from CalcRating import CalcRating
 from TextDataReader import TextDataReader
 from YamlDataReader import YamlDataReader
+from ExcellentCounter import ExcellentCounter
 
 
 def get_path_from_arguments(args) -> str:
@@ -25,7 +26,8 @@ def main():
 
     rating = CalcRating(students).calc()
     print("Rating: ", rating)
-
+    excellent_count = ExcellentCounter(students).count()
+    print("Number of excellent students: ", excellent_count)
 
 if __name__ == "__main__":
     main()
