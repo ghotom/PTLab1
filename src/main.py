@@ -29,5 +29,6 @@ def main():
     excellent_count = ExcellentCounter(students).count()
     print("Number of excellent students: ", excellent_count)
 
+
 if __name__ == "__main__":
     main()
