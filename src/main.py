@@ -19,9 +19,10 @@ def main():
     reader = TextDataReader()
     students = reader.read(path)
     print("Students: ", students)
-    
+
     rating = CalcRating(students).calc()
     print("Rating: ", rating)
+
 
 if __name__ == "__main__":
     main()
