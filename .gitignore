@@ -1,0 +1,8 @@
+tplab1-env/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.idea/
