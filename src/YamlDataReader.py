@@ -13,5 +13,5 @@ class YamlDataReader(DataReader):
             name = list(item.keys())[0]
             subjects = item[name]
             students[name] = [(subj, int(score)) for subj,
-                               score in subjects.items()]
+                              score in subjects.items()]
         return students
